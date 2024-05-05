@@ -1,0 +1,10 @@
+<p>peoples works!</p>
+
+<div>
+    <label for="name">Person name: </label>
+    <input id="name" [(ngModel)]="person.name" placeholder="name">
+</div>
+
+<h2>{{person.name | uppercase}} Details</h2>
+<div><span>id: </span>{{person.id}}</div>
+<div><span>name: </span>{{person.name}}</div>
