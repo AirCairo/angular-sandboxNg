@@ -1,0 +1,9 @@
+<p>dashboard works!</p>
+
+<h2>Top Peoples</h2>
+<div class="peoples-menu">
+  <a *ngFor="let person of peoples" routerLink="/detail/{{person.id}}">
+    {{person.name}}
+  </a>
+</div>
+
